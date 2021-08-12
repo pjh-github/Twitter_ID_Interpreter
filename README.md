@@ -4,9 +4,10 @@ Small script for decoding and parsing twitter tweet ids &amp; associated resourc
 
 ## Assumptions
 
-This is accurate: https://developer.twitter.com/en/docs/basics/twitter-ids 
+These are accurate: 
 
-This is accurate: https://twitter.com/conspirator0/status/1227063249440509952/photo/1
+* https://developer.twitter.com/en/docs/basics/twitter-ids 
+* https://twitter.com/conspirator0/status/1227063249440509952/photo/1
 
 Tweets can be split up into the given structure.
 
@@ -15,7 +16,7 @@ Tweets can be split up into the given structure.
    - Extract tweet ID
    - Take URL e.g: https://twitter.com/realDonaldTrump/status/1226595698793230348
      Actual tweet date - 7:56 PM Feb 9, 2020
-     Split by '/', take the final component
+   - Split by '/', take the final component
    - Convert to Binary
    - Substring binary into timestamp, datacenter, server and sequence. 
    - Pass to given timestamp logic.
@@ -23,4 +24,4 @@ Tweets can be split up into the given structure.
 
  ## Todo
  
- Hook up with this for some statistical analysis: https://github.com/hhromic/python-twitter-toolbox
+Statistical analysis

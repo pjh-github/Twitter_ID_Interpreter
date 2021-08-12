@@ -1,8 +1,8 @@
-## Goal - Extract timestamp, datacenter, server and sequence from tweet ID.
+# Goal - Extract timestamp, datacenter, server and sequence from tweet ID.
 
 import datetime 
 
-## Logic given from twitter thread, takes tweet ID as an input.  
+# Logic given from twitter thread, takes tweet ID as an input.  
 def id_to_utc_time(id):
     return (id >> 22) + 1288834974657
 
@@ -46,5 +46,5 @@ def TweetIDProfiler(tweetURL):
 
 
 ## Testing
-print(TweetIDProfiler("https://twitter.com/realDonaldTrump/status/1226595698793230348"))
-## Expected outcome: ['2020-02-09 19:56:18', 11, 27, 12]
+# print(TweetIDProfiler("https://twitter.com/realDonaldTrump/status/1226595698793230348"))
+# Expected outcome: ['2020-02-09 19:56:18', 11, 27, 12] in format [timestamp datacentrenum servernum sequencenum]

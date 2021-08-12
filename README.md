@@ -1,6 +1,6 @@
-# Extract Date, Data Centre, Server and Sequence ID from Tweet URLs.  
+# Tweet URL Analysis
 
-Small script for decoding and parsing twitter tweet ids &amp; associated resources.
+Extract Date, Data Centre, Server and Sequence ID from Tweet URLs.  
 
 ## Assumptions
 

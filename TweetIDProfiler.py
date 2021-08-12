@@ -47,4 +47,4 @@ def TweetIDProfiler(tweetURL):
 
 ## Testing
 print(TweetIDProfiler("https://twitter.com/realDonaldTrump/status/1226595698793230348"))
-## Expected outcome: 7:56 PM Feb 9, 2020
+## Expected outcome: ['2020-02-09 19:56:18', 11, 27, 12]
